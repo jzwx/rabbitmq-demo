@@ -1,0 +1,10 @@
+server:
+  port: 9090
+spring:
+  rabbitmq:
+    host: 192.168.1.152
+    port: 5672
+    username: springboot
+    password: password
+    virtual-host: /ssm
+    publisher-confirms: true
